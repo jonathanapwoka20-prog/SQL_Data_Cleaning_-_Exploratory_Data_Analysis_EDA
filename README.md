@@ -350,7 +350,3 @@ Layoffs were analyzed by funding stage.
 3. Load the dataset into a SQL environment
 4. Follow the staging → cleaning → EDA workflow
 5. Reference screenshots for validation at each step
-
----
-
-**This project is designed to be transparent, reproducible and interview-ready.**
