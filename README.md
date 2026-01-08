@@ -107,8 +107,9 @@ To ensure row-level traceability, a **staging table** was created and a **row nu
 - Prevents accidental deletion of valid records
 - Mirrors production-grade SQL workflows
 
-📸 *Recommended Screenshot:*  
-- PDF section showing staging table creation and `ROW_NUMBER()` logic
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/83770e47-e0cb-4782-8819-c104af2027fa" />
+ 
+- A screenshot showing staging table creation and `ROW_NUMBER()` logic
 
 ---
 
@@ -132,7 +133,8 @@ Manual validation queries were run for companies such as:
 
 This ensured only **true duplicates** were targeted.
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e9763f75-2df5-413b-b0cd-d6c5a0f9be0d" />
+
 - CTE output highlighting duplicate rows
 
 ---
@@ -146,8 +148,8 @@ Duplicates were deleted safely using conditional logic.
 - Duplicates removed
 - Original data integrity preserved
 
-📸 *Recommended Screenshot:*  
-- DELETE statement and post-cleaning table output
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/fadcf7b9-b073-4030-9d7a-b0c80c61c801" />
+- DELETE statement and post-cleaning table output print Code
 
 ---
 
@@ -164,7 +166,7 @@ The following standardization steps were applied:
 **Why this matters:**  
 Ensures accurate grouping, filtering, and time-series analysis.
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/dbe656ad-5f56-427f-b7b7-46ec177f2a8e" />
 - TRIM, UPDATE, and ALTER TABLE statements
 
 ---
@@ -180,7 +182,7 @@ These were populated using:
 
 This approach preserved accuracy without introducing assumptions.
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/bc58546f-80a4-4942-bb09-96db46ee36a6" />
 - UPDATE statements handling missing industries
 
 ---
@@ -196,7 +198,7 @@ were NULL or blank were removed.
 **Reason:**  
 Such rows do not contribute to meaningful layoff analysis.
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/f93e0756-6200-45eb-92eb-523195d68c50" />
 - DELETE logic for removing unusable rows
 
 ---
@@ -205,7 +207,7 @@ Such rows do not contribute to meaningful layoff analysis.
 
 After completing all cleaning steps, the dataset was fully standardized, deduplicated, and ready for analysis.
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c58cffa5-4e93-4411-a28a-df0cd9b21a80" />
 - Final cleaned table preview
 
 ---
@@ -219,7 +221,7 @@ The earliest and latest layoff dates were identified to confirm the pandemic cov
 **Insight:**  
 The dataset spans the core COVID-19 disruption period, including lockdowns, recovery phases, and post-pandemic restructuring.
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/36e78251-3cce-4795-9b23-949d893184fe" />
 - MIN(date) / MAX(date) output
 
 ---
@@ -233,8 +235,8 @@ Analysis identified:
 **COVID-19 Context:**  
 Many 100% layoff cases occurred in early-stage or travel-dependent businesses during lockdowns.
 
-📸 *Recommended Screenshot:*  
-- Max layoffs and percentage layoffs output
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d9189eb0-3942-453b-906a-b0cdd20dbfce" />
+- Max layoffs and percentage layoffs output (1 reps 100%)
 
 ---
 
@@ -245,7 +247,7 @@ Companies with 100% layoffs were analyzed against funds raised.
 **Key Insight:**  
 High funding levels did not guarantee survival during the pandemic.
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c79cb117-df19-4d9e-9daf-57343abb7278" />
 - Funds raised vs layoffs output
 
 ---
@@ -257,7 +259,7 @@ Top companies by total layoffs were identified.
 **Interpretation:**  
 Larger firms executed mass layoffs as cost-control measures during economic uncertainty.
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/7ea00282-6f9c-4856-8707-f268c7463131" />
 - Company aggregation output
 
 ---
@@ -270,7 +272,7 @@ Larger firms executed mass layoffs as cost-control measures during economic unce
 **COVID-19 Insight:**  
 Travel, consumer tech, and crypto-related sectors were heavily impacted, while defensive industries showed resilience.
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/9b05946b-f5f8-467b-beda-88532d60014b" />
 - Industry aggregation output
 
 ---
@@ -285,7 +287,7 @@ Countries were ranked by total layoffs:
 **Interpretation:**  
 Layoff severity reflected lockdown policies, economic structure, and labor market flexibility.
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/43e0365a-9769-4878-8c78-431f8eac3577" />
 - Country-level aggregation output
 
 ---
@@ -299,8 +301,11 @@ Layoff severity reflected lockdown policies, economic structure, and labor marke
 **Key Observation:**  
 Sharp spikes align with major COVID-19 waves and lockdown announcements.
 
-📸 *Recommended Screenshot:*  
-- Rolling sum CTE output
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b07208b9-77d9-4026-b612-46b9f0c33ff7" />
+- Rolling sum
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a62f25be-f20e-4968-9458-c2fc49d268ae" />
+- CTE output
 
 ---
 
@@ -312,7 +317,7 @@ Layoffs were analyzed by funding stage.
 - Early-stage companies showed higher vulnerability
 - Late-stage firms used layoffs as strategic restructuring
 
-📸 *Recommended Screenshot:*  
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/562bb534-2a70-4871-b357-cb3188198df0" />
 - Stage vs layoffs output
 
 ---
@@ -340,11 +345,12 @@ Layoffs were analyzed by funding stage.
 
 ## How to Reproduce This Project
 
-1. Download `layoffs.csv` from Kaggle
-2. Load the dataset into a SQL environment
-3. Follow the staging → cleaning → EDA workflow
-4. Reference screenshots for validation at each step
+1. Download CSV from the file folder attached
+2. Download the SQL Code files from the file folder
+3. Load the dataset into a SQL environment
+4. Follow the staging → cleaning → EDA workflow
+5. Reference screenshots for validation at each step
 
 ---
 
-**This project is designed to be transparent, reproducible, and interview-ready.**
+**This project is designed to be transparent, reproducible and interview-ready.**
