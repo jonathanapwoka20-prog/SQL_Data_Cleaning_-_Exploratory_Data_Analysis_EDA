@@ -1,7 +1,6 @@
 # SQL Data Cleaning & Exploratory Data Analysis  
 ## Global Company Layoffs During the COVID-19 Era
 
-**Author:** Jonathan Apwoka  
 **Role Focus:** Data Analyst | Financial Analyst | Finance Operations | SQL  
 **Tools:** SQL (CTEs, Window Functions), CSV  
 **Data Source:** Kaggle  
