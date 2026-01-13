@@ -32,7 +32,6 @@
     - 7.8 [Company Stage Analysis](#78-company-stage-analysis)
 8. [Key Insights & COVID-19 Context](#key-insights--covid-19-context)
 9. [Skills Demonstrated](#skills-demonstrated)
-10. [How to Reproduce This Project](#how-to-reproduce-this-project)
 
 ---
 
@@ -107,7 +106,7 @@ To ensure row-level traceability, a **staging table** was created and a **row nu
 - Prevents accidental deletion of valid records
 - Mirrors production-grade SQL workflows
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/83770e47-e0cb-4782-8819-c104af2027fa" />
+ <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/83770e47-e0cb-4782-8819-c104af2027fa" />
  
 - A screenshot showing staging table creation and `ROW_NUMBER()` logic
 
@@ -116,24 +115,16 @@ To ensure row-level traceability, a **staging table** was created and a **row nu
 ### 5.2 Duplicate Detection
 
 Duplicates were identified using a **CTE with window functions**, partitioning by:
-- Company
-- Location
-- Industry
-- Date
-- Layoff metrics
+- Company | Location | Industry | Date | Layoff metrics
 
 Records with `ROW_NUMBER() > 1` were flagged as duplicates.
 
 Manual validation queries were run for companies such as:
-- Casper  
-- Cazoo  
-- Hibob  
-- Wildlife Studios  
-- Yahoo  
+- Casper | Cazoo | Hibob | Wildlife Studios | Yahoo  
 
 This ensured only **true duplicates** were targeted.
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e9763f75-2df5-413b-b0cd-d6c5a0f9be0d" />
+ <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e9763f75-2df5-413b-b0cd-d6c5a0f9be0d" />
 
 - CTE output highlighting duplicate rows
 
