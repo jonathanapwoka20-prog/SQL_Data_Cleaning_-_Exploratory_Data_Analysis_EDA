@@ -2,7 +2,7 @@
 ## Global Company Layoffs During the COVID-19 Era
 
 **Role Focus:** Data Analyst | Financial Analyst | Finance Operations | SQL  
-**Tools:** SQL (CTEs, Window Functions), CSV  
+**Tools:** MySQL Workbench (CTEs, Window Functions), CSV  
 **Data Source:** Kaggle  
 
 ---
