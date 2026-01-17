@@ -30,7 +30,8 @@
     - 7.7 [Yearly & Monthly Layoff Trends](#77-yearly--monthly-layoff-trends)
     - 7.8 [Company Stage Analysis](#78-company-stage-analysis)
 8. [Key Insights & COVID-19 Context](#key-insights--covid-19-context)
-9. [Skills Demonstrated](#skills-demonstrated)
+9. [Recommendations Based on EDA Analyis](#recommendations-based-on-eda-analyis)
+10. [Skills Demonstrated](#skills-demonstrated)
 
 ---
 
@@ -319,6 +320,16 @@ Layoffs were analyzed by funding stage.
 - Early-stage companies were disproportionately affected i.e, companies at the bottom of the growth pyramid such as **Series H** companies still suffered staff layoffs **(7,244)**. **Private Equity** firms were not spared neither, they faced staff layoff of about **7,957**. 
 - Rolling metrics reveal clear crisis progression patterns: On Year-Over-Year basis, staff layoffs still accelerated where as of **March, 2020** the Total layoffs across-board was **9,628**. By **December 2020**, the number had risen to **80,998 (***741.28% increase***, a spike in layoffs)**. By **June, 2021** this number had risen to **91,421**. This can be attributed to more companies scaling down or ceasing operations.
 - SQL is sufficient for full lifecycle analytics when structured correctly as illustrated in this project.
+
+---
+
+## Recommendations based on EDA Analyis
+- Diversify risk across industries to reduce vulnerability to sector-specific shocks (e.g. Consumer, Retail).
+- Strengthen crisis planning even for well-funded firms, capital alone doesn’t shield against pandemic layoffs.
+- Support early-stage and growth-stage companies with resilience frameworks, as they face disproportionate risks.
+- Private Equity and Series H firms should adopt stricter workforce sustainability measures to withstand downturns.
+- Monitor rolling layoff metrics to anticipate crisis escalation and act proactively on workforce adjustments.
+- Use SQL-driven analytics pipelines for continuous monitoring of workforce trends and scenario planning.
 
 ---
 
