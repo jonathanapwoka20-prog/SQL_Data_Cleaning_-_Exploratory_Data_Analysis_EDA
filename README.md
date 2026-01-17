@@ -314,7 +314,7 @@ Layoffs were analyzed by funding stage.
 
 ## Key Insights & COVID-19 Context
 
-- Layoffs were uneven across industries with ***Consumer*** at the top layoff list; **45,182** followed by ***Retail***; **43,613** staff laid during the Covid19 era. Additonally, regions (Countries) where ***Amazon (United States)*** leads the way with a total of **18,150** staff laid off followed by ***Google (United States)*** **12,000**.
+- Layoffs were uneven across industries with ***Consumer*** at the top layoff list; **45,182** followed by ***Retail***; **43,613** staff laid during the Covid19 era. Additonally, regions (Countries) where ***Amazon (United States)*** leads the way with a total of **18,150** staff laid off followed by ***Google (United States)*** **12,000**, suffered huge staff layoffs.
 - Funding size did not eliminate pandemic risk where despite companies such as **Twitter** from the **United States** having pooled huge funding **($12.9B)** back in **2022**, still staff laid off were **3,700**; highest during that period of the year.
 - Early-stage companies were disproportionately affected i.e, companies at the bottom of the growth pyramid such as **Series H** companies still suffered staff layoffs **(7,244)**. **Private Equity** firms were not spared neither, they faced staff layoff of about **7,957**. 
 - Rolling metrics reveal clear crisis progression patterns: On Year-Over-Year basis, staff layoffs still accelerated where as of **March, 2020** the Total layoffs across-board was **9,628**. By **December 2020**, the number had risen to **80,998 (***741.28% increase***, a spike in layoffs)**. By **June, 2021** this number had risen to **91,421**. This can be attributed to more companies scaling down or ceasing operations.
