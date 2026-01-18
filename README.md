@@ -313,26 +313,28 @@ Layoffs were analyzed by funding stage.
 
 ---
 
-## Key Insights & COVID-19 Context
+## 8. Key Insights & COVID-19 Context
 
-- Layoffs were uneven across industries with ***Consumer*** at the top layoff list; **45,182** followed by ***Retail***; **43,613** staff laid during the Covid19 era. Additonally, regions (Countries) where ***Amazon (United States)*** leads the way with a total of **18,150** staff laid off followed by ***Google (United States)*** **12,000**, suffered huge staff layoffs.
-- Funding size did not eliminate pandemic risk where despite companies such as **Twitter** from the **United States** having pooled huge funding **($12.9B)** back in **2022**, still staff laid off were **3,700**; highest during that period of the year.
-- Early-stage companies were disproportionately affected i.e, companies at the bottom of the growth pyramid such as **Series H** companies still suffered staff layoffs **(7,244)**. **Private Equity** firms were not spared either, they faced staff layoff of about **7,957**. 
-- Rolling metrics reveal clear crisis progression patterns: On Year-Over-Year basis, staff layoffs still accelerated where as of **March, 2020** the Total layoffs across-board was **9,628**. By **December 2020**, the number had risen to **80,998 (***741.28% increase***, a spike in layoffs)**. By **June, 2021** this number had risen to **91,421**. This can be attributed to more companies scaling down or ceasing operations.
-- SQL is sufficient for full lifecycle analytics when structured correctly as illustrated in this project.
-
----
-
-## Recommendations based on EDA Analyis
-- Diversify risk across industries to reduce vulnerability to sector-specific shocks (e.g. Consumer, Retail).
-- Strengthen crisis planning even for well-funded firms, capital alone doesn’t shield against pandemic layoffs.
-- Support early-stage and growth-stage companies with resilience frameworks, as they face disproportionate risks.
-- Private Equity and Series H firms should adopt stricter workforce sustainability measures to withstand downturns.
-- Monitor rolling layoff metrics to anticipate crisis escalation and act proactively on workforce adjustments.
-- Use SQL-driven analytics pipelines for continuous monitoring of workforce trends and scenario planning.
+* **Sectoral Vulnerability:** Layoffs were highly concentrated in the **Consumer (45,182)** and **Retail (43,613)** industries. High-profile tech giants in the **United States** bore the brunt of the volume, led by **Amazon (18,150)** and **Google (12,000)**.
+* **Capital vs. Crisis Resilience:** Data reveals that massive funding did not guarantee workforce stability. Despite a **$12.9B funding pool** in 2022, **Twitter** executed a layoff of **3,700 staff**, the highest single-event total for that period.
+* **Stage-Specific Risk:** Early-stage and late-growth companies faced disproportionate pressure. **Series H** companies saw **7,244** layoffs, while **Private Equity-backed firms** were also heavily impacted with **7,957** staff reductions.
+* **Crisis Acceleration (Rolling Metrics):** Utilizing SQL rolling totals, the analysis shows a stark escalation:
+    * **March 2020:** 9,628 total layoffs.
+    * **December 2020:** 80,998 total layoffs (**741% spike** from early-pandemic levels).
+    * **June 2021:** 91,421 total layoffs, reflecting the long-tail impact as companies scaled down or ceased operations permanently.
+* **Technical Validation:** Demonstrated that a structured SQL lifecycle—from multi-layer staging to advanced EDA—is sufficient for enterprise-level crisis analytics.
 
 ---
 
+## 9. Strategic Recommendations based on EDA Analysis
+
+* **Industry Diversification:** Organizations and investors should diversify portfolios across sectors to mitigate the impact of industry-specific shocks, such as those seen in **Consumer and Retail**.
+* **Beyond Capital Reserves:** Well-funded firms must strengthen crisis-response planning; this analysis proves that high liquidity alone is not a sufficient shield against pandemic-scale workforce disruption.
+* **Resilience Frameworks for Growth-Stage Firms:** Early-stage and **Series H** companies require robust workforce sustainability frameworks to navigate the higher risk profile inherent in the growth pyramid.
+* **Proactive Workforce Monitoring:** Implement the developed **SQL-driven analytics pipeline** for continuous monitoring of rolling metrics to anticipate crisis escalation and trigger proactive workforce adjustments.
+* **Scenario-Based Planning:** Use the identified rolling layoff patterns to build predictive models for future economic downturns, allowing for more strategic scenario planning.
+
+---
 ## Skills Demonstrated
 
 - Advanced SQL (CTEs, Window Functions)
